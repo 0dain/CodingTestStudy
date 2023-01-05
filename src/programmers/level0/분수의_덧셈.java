@@ -16,6 +16,9 @@ public class 분수의_덧셈 {
         //1	        2	    3	    4	    [5, 4]
         //9	        2	    1	    3	    [29, 6]
 
+        System.out.println(solution2(1,2,3,4)[0]);
+        System.out.println(solution2(1,2,3,4)[1]);
+
 
     }
 
