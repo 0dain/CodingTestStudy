@@ -15,7 +15,7 @@ public class 짝수의_합 {
         //10	30
         //4	    6
 
-        System.out.println(10);
+        System.out.println(solution(4));
 
     }
 
@@ -24,7 +24,7 @@ public class 짝수의_합 {
 
         //n이하의 짝수를 모두 더하기(누적합)
         //n을 2로 나눴을 때 나머지가 0이면 짝수
-        for (int i=n; i<=n;i--){
+        for (int i=0; i<=n; i++){
             if(i%2==0){
                 answer+=i;
             }
