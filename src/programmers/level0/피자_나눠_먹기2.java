@@ -23,15 +23,14 @@ public class 피자_나눠_먹기2 {
     }
 
     public static int solution(int n) {
-        int answer = 0;
 
-        if(n % 6 == 0){
-            answer = n / 6;
-        }else {
-            answer = (n / 6) + 1;
+        int pizzaPiece = 6;//한 판에 6조각
+
+        while(pizzaPiece % n != 0){
+            pizzaPiece += 6;
         }
 
-        return answer;
+        return pizzaPiece/6;
     }
 
 }
